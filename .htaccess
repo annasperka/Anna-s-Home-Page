@@ -1,8 +1,8 @@
 ### PROTECT FILES ###
-<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+<Files "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
 Order Allow,Deny
 Deny from all
-</FilesMatch>
+</Files>
 
 RewriteEngine on
 RewriteRule zatrudnij-programiste-webowego index.html
